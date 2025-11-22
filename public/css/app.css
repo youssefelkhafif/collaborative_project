@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*befor-nav*/
+
+.before-nav {
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3c3c3c;
+}
+
+.left-contact {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    column-gap: 30px;
+}
+
+.left-contact a,
+p {
+    text-decoration: none;
+    color: white;
+}
+
+.left-contact a .fa-regular,
+.left-contact p .fa-solid {
+    color: orangered;
+}
+
+.left-contact a:hover {
+    color: orangered;
+}
+
+.right-media {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    /* align-items: center; */
+}
+
+.right-media a {
+    text-decoration: none;
+    color: gray;
+}
+
+.right-media a:hover {
+    color: orangered;
+}
+
+/*nav-section*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.left-nav{
+    position: relative;
+}
+
+.left-nav a{
+    text-decoration: none;
+    color: #575757;
+}
+
+.left-nav a::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    width: 8px;
+    height: 35px;
+    background-color: orangered;
+}
+
+.right-nav {
+    display: flex;
+    column-gap: 20px;
+}
+
+.right-nav a{
+    text-decoration: none;
+    color: #575757;
+}
+
+.right-nav a:hover{
+    color: orangered;
+}
+
+.right-nav #drop{
+    border: none;
+    outline: none;
+}
+
+#drop:hover{
+     color: orangered;
+}
+
+
+
