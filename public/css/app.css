@@ -152,4 +152,31 @@ nav{
     border-radius: 20px;
     border: none;
     background-color: #e96b56;
+
 }
+
+
+/* session chaimae */
+.section3{ display: flex;
+
+}
+.rigthdiv{
+    get . 
+    width: 100vw;
+    height: 100vh;
+}
+.rigthdiv h5{
+    color: grey;
+}
+.rightdiv{
+    
+    width: 100vw;
+    height: 100vh;
+}
+.bb{
+display: flex;
+}
+.bb i {color: red;
+
+}
+
