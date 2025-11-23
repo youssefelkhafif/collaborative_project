@@ -208,7 +208,7 @@ footer{
     padding-inline: 20px;
 }
 
-.top-footer h3 , p{
+.top-footer h3 , .top-footer p{
     color: white;
    
 }
@@ -259,6 +259,7 @@ footer{
     flex-direction: column;
     display: flex;
     gap: 30px;
+    color: white;
 }
 
 .left-bottom-footer a h3 , .right-bottom-footer div a h3{
@@ -278,6 +279,10 @@ footer{
 
 .space-footer div a {
     text-decoration: none;
+    color: white;
+}
+
+.space-footer div p{
     color: white;
 }
 
@@ -330,6 +335,10 @@ footer{
     width: 90%;
     height: 1px;
     background-color:#505050 ;
+}
+
+.coperight-footer{
+    color: white;
 }
 
 .coperight-footer span{
@@ -908,6 +917,94 @@ textarea{
 }
 
 
+
+/*team-section-1*/
+
+.team-section{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-inline: 100px;
+    row-gap: 10px;
+}
+
+.top-section-team  , .bottom-section-team{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.left-section-team img , .right-section-team img,
+.left-bottom-team img , .right-bottom-team  img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+
+    
+}
+
+.left-section-team , .right-section-team ,
+.left-bottom-team , .right-bottom-team {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    column-gap: 10px;
+    width: 50%;
+    padding: 30px;
+    height: 100%;
+}
+
+
+
+.line-color{
+    display: flex;
+    width: 50px;
+    height: 1px;
+    background-color: #e3e3e3;
+}
+
+
+
+.left-section-team div .right-media , .right-section-team div  .right-media,
+.left-bottom-team div .right-media , .right-bottom-team div .right-media{
+    justify-content: unset;
+    /* background-color: #545454; */
+}
+
+
+@media (max-width:445px){
+    .team-section{
+        height: 160vh;
+        padding-inline: unset;
+    }
+
+      .top-section-team  , .bottom-section-team{
+        flex-direction: column;
+      }
+
+      .left-section-team , .right-section-team ,
+.left-bottom-team , .right-bottom-team{
+    flex-direction: column;
+    width: unset;
+    align-items: center;
+}
+
+.left-section-team div  , .right-section-team div ,
+.left-bottom-team div  , .right-bottom-team div {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.left-section-team div .right-media , .right-section-team div  .right-media,
+.left-bottom-team div .right-media , .right-bottom-team div .right-media{
+    display: unset;
+    
+
+}
+}
 
 
 
