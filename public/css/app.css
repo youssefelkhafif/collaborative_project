@@ -905,6 +905,106 @@ textarea{
             width: unset;
     }
 }
+ 
+
+/*abouut chaimae css*/
+
+
+.section1{margin-top: 200px;
+     display: flex;
+padding-left : 40px ;
+padding-right:40px ;
+padding-bottom: 40px;
+}
+
+
+.leftdiv h5{
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.modif1{
+    display: flex;
+   gap: 20px;
+    
+}
+.modif1 i{
+    display: flex;
+    justify-content: center;
+    color: red;
+   
+   
+    
+}
+.modif1 h6 {
+    color: gray;
+}
+.modif1 span{
+   font-size: x-large;
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.blogat{
+    padding-top:20px ;
+    padding-bottom:20px ;
+    padding-left: 20px ;
+    padding-right:20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.card1 p  {color: black;
+
+}
+.card1 img { border-radius: 50%;}
+.flexi{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.card1{
+margin-top: 20px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.stars{
+    color: yellow;
+}
+.fa-quote-left{
+    color: pink;
+}
+.quote{
+    padding-top: 15px;
+}
+/*madia de "about"*/
+
+@media (max-width: 445px){
+    .section1{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftdiv{order:1;}
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .blogat{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
 
 /*services_page  css chorouk*/
 
