@@ -853,6 +853,13 @@ textarea{
     padding-bottom: 40px;
 }
 
+@media (max-width:445px) {
+    .team-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 5vh 5vh;
+    }
+}
 
 .leftdiv h5{
     color: grey;
