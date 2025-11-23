@@ -1111,8 +1111,13 @@ footer{
     gap: 10px;
 }
 
+
+
+                                             /*change height of footer*/
+
+
 .before-buttom-footer{
-    height: 120vh;
+    height: 150vh;
 }
 
 
@@ -1204,7 +1209,7 @@ footer{
 
     
     .team-section{
-        height: 160vh;
+        height: 250vh;
         padding-inline: unset;
     }
 
