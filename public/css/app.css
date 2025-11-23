@@ -209,8 +209,8 @@ footer{
 }
 
 .top-footer h3 , .top-footer p{
+.top-footer h3 , .top-footer p{
     color: white;
-   
 }
 
 .top-footer .btn:hover{
@@ -604,7 +604,7 @@ display: flex;
     
 }
 
-
+/*session3 chorouk*/
 .cards{
     display:flex;
     justify-content: space-between;
@@ -648,7 +648,7 @@ display: flex;
         padding: unset;
     }
 }
-    
+    /*session5 chorouk*/
 .bg_svg{
     background-color: #e96b56;
     color: white;
@@ -688,9 +688,9 @@ display: flex;
     color: #e96b56;
 }
 
-.card-text{
-    color: black;
-}
+
+
+
 @media (max-width: 445px){
     .grid{
         display: unset;
@@ -912,11 +912,12 @@ textarea{
     }
 
     .inside-left-input input{
-             width: unset;
+            width: unset;
     }
 }
+ 
 
-
+/*abouut chaimae css*/
 
 /*team-section-1*/
 
@@ -1008,4 +1009,194 @@ textarea{
 
 
 
+.section1{margin-top: 200px;
+     display: flex;
+padding-left : 40px ;
+padding-right:40px ;
+padding-bottom: 40px;
+}
 
+
+.leftdiv h5{
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.modif1{
+    display: flex;
+   gap: 20px;
+    
+}
+.modif1 i{
+    display: flex;
+    justify-content: center;
+    color: red;
+   
+   
+    
+}
+.modif1 h6 {
+    color: gray;
+}
+.modif1 span{
+   font-size: x-large;
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.blogat{
+    padding-top:20px ;
+    padding-bottom:20px ;
+    padding-left: 20px ;
+    padding-right:20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.card1 p  {color: black;
+
+}
+.card1 img { border-radius: 50%;}
+.flexi{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.card1{
+margin-top: 20px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.stars{
+    color: yellow;
+}
+.fa-quote-left{
+    color: pink;
+}
+.quote{
+    padding-top: 15px;
+}
+/*madia de "about"*/
+
+@media (max-width: 445px){
+    .section1{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftdiv{order:1;}
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .blogat{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+/*services_page  css chorouk*/
+
+.margin{
+    margin-top: 120px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.center h1{
+    color: #3c3c3ce8;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center h1::after{
+    content: "";
+    width: 45px;
+    height: 4px;
+    background-color: #e96b56;
+    margin-top: 8px;
+}
+.center p{
+    color: #505050;
+    padding-bottom: 20px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 4vh 4vw;
+}
+.flex h2{
+    color: #3c3c3ce8;
+}
+.flex p{
+    color: #505050;
+}
+.photo{
+    width:45vw;
+    height: 52vh;
+}
+
+.items1 {
+    display: flex;
+    justify-content: space-between;
+}
+.progress-bar {
+    background-color: rgb(232, 107, 87) !important;
+    border-radius: 0px;
+}
+.progress {
+    height: 12px !important;
+    border-radius: 0 !important;
+    animation: fillBar 2s forwards;
+}
+@keyframes fillBar{
+    from { width: 0%; }
+    to { width: 100%; }
+}
+@media (max-width: 445px) {
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .photo{
+        width: 90vw;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex h2{
+    color: #3c3c3ce8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .center p{
+        padding: 2vh 2vw;
+    }
+    .media_marg{
+        margin-top: 120px;
+    }
+}
